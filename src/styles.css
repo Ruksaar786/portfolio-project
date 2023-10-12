@@ -1,0 +1,218 @@
+:root {
+  --button-branding-color: #6c63ff;
+  --hero-bg-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4d4c4c;
+}
+
+nav a:hover {
+  color: var(--button-branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav li.active a {
+  color: var(--button-branding-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+p strong {
+  font-size: 20px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.hero {
+  background: var(--hero-bg-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272142;
+}
+
+.about-section {
+  padding: 160px;
+  padding-top: 100px;
+}
+
+.btn-branding {
+  background: var(--button-branding-color);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 30px;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--button-branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 30px;
+  color: var(--button-branding-color);
+}
+
+.project-descriptions {
+  padding: 40px 60px;
+}
+
+.project-reel-row h3 {
+  font-size: 25px;
+}
+
+.image-sophie {
+  max-width: 350px;
+}
+
+.contact-box {
+  background: var(--hero-bg-color);
+  padding: 20px;
+}
+
+.contact-box h2 {
+  font-size: 40px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-page-box h2 {
+  font-size: 35px;
+}
+
+.social-links {
+  color: var(--button-branding-color);
+  font-size: 18px;
+  background: var(--hero-bg-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links:hover {
+  color: #fff;
+  background: var(--button-branding-color);
+}
+
+@media (max-width: 992px) {
+  nav a {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-descriptions {
+    padding: 0;
+    text-align: center;
+  }
+
+  .contact-box h2 {
+    font-size: 27px;
+  }
+
+  .btn-branding {
+    font-size: 16px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .about-section h3 {
+    font-size: 35px;
+  }
+
+  .about-section p {
+    font-size: 16px;
+  }
+
+  .about-section p strong {
+    font-size: 18px;
+  }
+}
