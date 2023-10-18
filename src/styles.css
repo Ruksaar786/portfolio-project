@@ -80,7 +80,11 @@ p strong {
 }
 
 .hero {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(
+    181.2deg,
+    rgb(181, 239, 249) 10.5%,
+    rgb(254, 254, 254) 86.8%
+  );
   text-align: center;
   padding: 160px 20px;
 }
@@ -140,7 +144,11 @@ p strong {
 }
 
 .contact-box {
-  background: var(--hero-bg-color);
+  background: linear-gradient(
+    181.2deg,
+    rgb(181, 239, 249) 10.5%,
+    rgb(254, 254, 254) 86.8%
+  );
   padding: 20px;
 }
 
